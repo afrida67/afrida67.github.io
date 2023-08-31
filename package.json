@@ -2,7 +2,7 @@
   "name": "portfolio-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://afrida67.github.io/portfolio/",
+  "homepage": "https://afrida67.github.io/",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "font-awesome": "^4.7.0",

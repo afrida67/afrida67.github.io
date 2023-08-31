@@ -24,12 +24,6 @@ const mydata = {
             "title": "Stack Overflow"
          },
          {
-            "id": "tumblr",
-            "url": "https://afrida67.tumblr.com/",
-            "className":"fa fa-tumblr-square",
-            "title": "Tumblr"
-         },
-         {
             "id": "researchgate",
             "url": "https://www.researchgate.net/profile/Afrida_Aesha",
             "imageUrl":"https://i.ibb.co/my07357/imageedit-9-5810964466.png",
@@ -49,7 +43,7 @@ const mydata = {
          'Please, Scroll Down.',
          'Thank You :)'
       ],
-      "mail": "afrida660@gmail.com"
+      "mail": "aeshaa55@gmail.com"
 
 };
 export default mydata;

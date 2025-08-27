@@ -9,7 +9,7 @@
   font-family: 'VT323', monospace;
   text-align: center;
   color:black;
-  background: fixed url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/strange_bullseyes.png');
+  background: url('/public/images/strange_bullseyes.png');
 }
 a {
   text-decoration: none !important;
@@ -146,4 +146,9 @@ body {
   height: 33px;
    width: 34px;
    top: -3px;
+}
+
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
 }

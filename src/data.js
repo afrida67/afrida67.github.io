@@ -1,5 +1,5 @@
 const mydata = {
-    "name": "Afrida Anzum Aesha",
+    "name": "Afrida Anzum",
     "position": "Software Engineer",
     "company": "Dynamic Solution Innovators",
     "curl":"http://www.dsinnovators.com/",
@@ -15,7 +15,7 @@ const mydata = {
             "id": "linkedin",
             "url": "https://linkedin.com/in/afrida-anzum/",
             "className":"fa fa-linkedin",
-            "title": "LinkedIn"
+            "title": "LinkedIn Currently Restricted"
          },
          {
             "id": "stackoverflow",
@@ -33,17 +33,18 @@ const mydata = {
      "intro": "Let me introduce myself.",
      "aboutMe": "My areas of interest are Algorithms, Data Structures, Design Patterns and Machine Learning. I like to resolve design problems and passionate about learning new technologies. To me",
      "quote": "“Learning without thought is labor lost, thought without learning is perilous” - Confucius",
-     "aboutMe2": "When I’m not working on project, I spend that recess hour for problem-solving to benefit myself . Besides that, I love traveling, listening to musics and eating foods :).",
+     "interest": "When I’m not working on projects, I spend my free time solving problems to improve myself. Besides that, I love traveling, listening to music, and enjoying food :)",
      "universityName":"Military Institute of Science and Technology (MIST)",
      "universityUrl":"https://mist.ac.bd/",
-      "typewriter":[
-         'I am Afrida.', 
-         'Welcome to my minimal portfolio.',
+      "typewriter":[ 
+         'Welcome to my profile.',
+         'I am Afrida.',
          'Want to know more about me?',
          'Please, Scroll Down.',
          'Thank You :)'
       ],
-      "mail": "aeshaa55@gmail.com"
+      "mail": "",
+      "year": "2025",
 
 };
 export default mydata;

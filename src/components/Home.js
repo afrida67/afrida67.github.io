@@ -10,7 +10,34 @@ export class Home extends Component {
       <div>
         <Jumbotron className="home">
             <h1 className="display-3">Hello, World!</h1>
-              <Typer heading={'root:~$'} dataText={ data.typewriter } />
+
+                      
+            <div style={{ position: "relative", width: "100%", marginTop: "2rem", textAlign: "center" }}>
+              <span style={{
+                fontFamily: "'VT323', monospace",
+                fontSize: "1.7rem",
+                color: "black",
+                display: "inline-block",
+                position: "relative",
+                left: "-6ch" 
+              }}>
+                root:~$&nbsp;
+
+
+                <span style={{
+                  position: "absolute",
+                  left: "100%",  
+                  top: 0,
+                  whiteSpace: "nowrap",
+                  fontFamily: "'VT323', monospace",
+                  fontSize: "1.7rem"
+                }}>
+                  <Typer dataText={data.typewriter} />
+                </span>
+              </span>
+            </div>
+
+
             <div className="linkNew">
             <nav>
             <ul className="social">

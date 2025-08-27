@@ -20,7 +20,9 @@ class Typer extends React.Component {
       const fullText = dataText[i];
   
       this.setState({
-        text: isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1),
+        text: isDeleting ? 
+        fullText.substring(0, text.length - 1) 
+        : fullText.substring(0, text.length + 1),
         typingSpeed: isDeleting ? 30 : 150
       });
   
@@ -42,10 +44,18 @@ class Typer extends React.Component {
   
     render() {    
       return (
-        <h1>{ this.props.heading }&nbsp;
-          <span>{ this.state.text }</span>
-          <span id="cursor"></span>
-        </h1>
+      <span >
+        {this.state.text}
+        <span
+          style={{
+            position: "absolute",
+            right: "-2px",
+            animation: "blink 1s infinite",
+          }}
+        >
+          |
+        </span>
+      </span>
       );
       
     }

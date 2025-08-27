@@ -14,8 +14,8 @@ export class About extends Component {
           <p>Completed my Bachelor's Degree in Computer Science & Engineering from <a target="_blank" href={data.universityUrl} rel="noopener noreferrer">{data.universityName} </a> in 2018.</p>
           <p>{data.aboutMe}</p>
           <p style={{ color: "#0080ff" }}><i>{data.quote}</i></p>
-          <p>{data.aboutMe2}</p>
-          <p>Mail Me : <a href="mailto:">{data.mail}</a></p>
+          <p>{data.interest}</p>
+          {/* <p>Mail Me : <a href="mailto:">{data.mail}</a></p> */}
         </div>
       <div className="col-md-6">
          <img src={data.profileImage} alt="Afrida Logo" className="img-circle shadow up-hover avatar"/>

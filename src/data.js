@@ -32,7 +32,7 @@ const mydata = {
      ],
      "intro": "Let me introduce myself.",
      "aboutMe": "My areas of interest are Algorithms, Data Structures, Design Patterns and Machine Learning. I like to resolve design problems and passionate about learning new technologies. To me",
-     "quote": "“Learning without thought is labor lost, thought without learning is perilous” - Confucius",
+     "quote": "You cannot alter your fate. However, you can rise to meet it.” — \"Princess Mononoke\"",
      "interest": "When I’m not working on projects, I spend my free time solving problems to improve myself. Besides that, I love traveling, listening to music, and enjoying food :)",
      "universityName":"Military Institute of Science and Technology (MIST)",
      "universityUrl":"https://mist.ac.bd/",

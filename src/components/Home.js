@@ -9,7 +9,7 @@ export class Home extends Component {
       <section id="home">
       <div>
         <Jumbotron className="home">
-
+            
             <div className="terminal-section">
               <div className="terminal-header">
                 <span className="terminal-button terminal-close"></span>
@@ -20,7 +20,7 @@ export class Home extends Component {
               
               <div className="terminal-body">
                 <div className="terminal-line">
-                  <span className="prompt">root@afrida:~$</span>
+                  <span className="prompt">root@portfolio:~$</span>
                   <span className="command">
                     <Typer dataText={data.typewriter} />
                   </span>

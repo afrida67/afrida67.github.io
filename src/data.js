@@ -26,10 +26,8 @@ const mydata = {
             "imageUrl":"https://i.ibb.co/my07357/imageedit-9-5810964466.png",
          },
      ],
-     "intro": "Let me introduce myself.",
-     "aboutMe": "My areas of interest are Algorithms, Data Structures, Design Patterns and Machine Learning. I like to resolve design problems and passionate about learning new technologies. To me",
-     "quote": "You cannot alter your fate. However, you can rise to meet it.” — \"Princess Mononoke\"",
-     "interest": "When I’m not working on projects, I spend my free time solving problems to improve myself. Besides that, I love traveling, listening to music, and enjoying food :)",
+     "aboutMe": "I’m a Software Engineer with 4 years of industry experience, specializing in ERP and e-commerce solutions. I hold a Bachelor’s degree in Computer Science & Engineering from the Military Institute of Science and Technology (MIST). My expertise lies in designing secure applications, optimizing complex databases, and developing scalable APIs that enhance system performance and reliability.",
+    "interest": "When I’m not working on projects, I spend my free time solving problems to improve myself. Besides that, I love traveling, listening to music, and enjoying food :)",
      "universityName":"Military Institute of Science and Technology (MIST)",
      "universityUrl":"https://mist.ac.bd/",
       "typewriter":[ 
@@ -67,8 +65,12 @@ const mydata = {
       
       "frameworks": [
         {
+          "name": "Spring Boot",
+          "icon": "fa fa-leaf"
+        },        
+        {
           "name": "React.js",
-          "icon": "fa fa-react"
+          "icon": "fa fa-server"
         },
         {
           "name": "Node.js",
@@ -76,15 +78,11 @@ const mydata = {
         },
         {
           "name": "Django",
-          "icon": "fa fa-python"
+          "icon": "fa fa-server"
         },
         {
           "name": "Express.js",
           "icon": "fa fa-server"
-        },
-        {
-          "name": "Spring Boot",
-          "icon": "fa fa-leaf"
         },
         {
           "name": "Hapi.js",
@@ -93,6 +91,10 @@ const mydata = {
       ],
 
       "tools": [
+        {
+          "name": "IntelliJ IDEA",
+          "icon": "fa fa-code"
+        },
         {
           "name": "VS Code",
           "icon": "fa fa-code"
@@ -104,10 +106,6 @@ const mydata = {
         {
           "name": "Docker",
           "icon": "fa fa-cube"
-        },
-        {
-          "name": "IntelliJ IDEA",
-          "icon": "fa fa-code"
         },
         {
           "name": "Postman",
@@ -141,34 +139,34 @@ const mydata = {
       // Achievements Data
       "awards": [
         {
-          "title": "DIU App Contest",
+          "title": "DIU App Contest Winner",
           "organization": "Daffodil International University",
           "year": "2017",
-          "description": "First Place in the Business Innovation Track",
+          "description": "App Development",
           "icon": "fa fa-graduation-cap"
         },
         {
           "title": "a2i Hackathon Winner",
-          "organization": "Information & Communication Technology Division",
+          "organization": "Information & Communication Technology Division, BD",
           "year": "2017",
-          "description": "Awarded for developing a smart household-assistant apps.",
+          "description": "Smart Business Innovation",
           "icon": "fa fa-medal"
         }
       ],
 
       "certifications": [
         {
-          "title": "Women Hackathon",
+          "title": "Women Hackathon Champion",
           "issuer": "ICT Division Women in Digital",
           "year": "2016",
-          "description": "Developing a smart lost andfound apps.",
+          "description": "Hackathon",
           "icon": "fa fa-cloud"
         },
         {
-          "title": "International Humanitarian Technology Project ",
+          "title": "International Humanitarian Technology",
           "issuer": "Dept of EEE, BUET",
           "year": "2017",
-          "description": "Presenting a smart fire exit guidance system",
+          "description": "Ranked Top 10 in Hardware Project Competition",
           "icon": "fa fa-brain"
         }
       ],
@@ -176,23 +174,21 @@ const mydata = {
       "notableProjects": [
         {
           "title": "ERP Project",
-          "description": "Built a scalable microservices architecture handling 10k+ concurrent users",
-          "technologies": ["Spring Boot", "PostgreSQL", "AWS"],
+          "description": "Built a scalable ERP architecture supporting 1,000+ concurrent users, ensuring reliable operations for semiconductor workflows.",
+          "technologies": ["Spring Security", "Message Queue", "JUnit"],
           "url": "",
           "icon": "fa fa-shopping-cart"
         },
         {
           "title": "AI ChatBot",
-          "description": "Developed an intelligent chatbot using LLM and Rag.",
-          "year": "2025",
-          "technologies": ["Python", "LLM", "Flask", "Pinecone"],
+          "description": "Developed an intelligent chatbot leveraging OpenAI LLMs and RAG to provide context-aware, real-time responses.",
+          "technologies": ["Python", "OpenAI", "Flask", "Pinecone"],
           "url": "",
           "icon": "fa fa-comments"
         },
         {
-          "title": "E Commerce Website",
-          "description": "Created a food delivery website",
-          "year": "2025",
+          "title": "E-Commerce Website",
+          "description": "Developed a full-featured food delivery website with a user-friendly interface and real-time order tracking.",
           "technologies": ["React", "Spring", "MySQL"],
           "url": "",
           "icon": "fa fa-bar-chart"
@@ -204,28 +200,26 @@ const mydata = {
           "position": "Software Engineer",
           "company": "Dynamic Solution Innovators",
           "companyUrl": "http://www.dsinnovators.com/",
-          "duration": "Jan 2022 - Present",
+          "duration": "Feb 2019 - Present",
           "location": "Dhaka, Bangladesh",
-          "description": "Leading development of enterprise-level applications and mentoring junior developers. Responsible for architecting scalable solutions and implementing best practices.",
+          "description": null,
           "achievements": [
-            "Implemented automated testing and CI/CD pipelines, reducing deployment time by 60%",
-            "Designed and developed RESTful APIs serving 10,000+ daily active users"
+            "Worked on an ERP project for a semiconductor company, streamlining core operations and improving process efficiency. The system reduced manual effort through automation in order management, inventory, and reconciliation. Additionally, I developed cost projection features that enhanced financial planning and supported better decision-making.",
           ],
-          "technologies": ["React.js", "Node.js", "PostgreSQL", "Docker", "AWS", "MongoDB", "Express.js"]
+          "technologies": ["Spring Boot", "Hibernate","PostgreSQL", "JPA", "AWS", "CI/CD"]
         },
         {
           "position": "Junior Programmer",
           "company": "Adiva Graphics",
           "companyUrl": null,
-          "duration": "Jan 2018 - May 2019",
+          "duration": "May 2018 - July 2018",
           "location": "Dhaka, Bangladesh",
-          "description": "Started career as a junior developer, focusing on learning modern web technologies and contributing to various client projects.",
+          "description": null,        
           "achievements": [
-            "Successfully completed 10+ client projects within deadlines",
-            "Learned and implemented responsive web design principles",
+            "Focused on learning modern web technologies and contributing to various client projects.",
             "Contributed to the company's internal tools development",
           ],
-          "technologies": ["HTML5", "CSS3", "JavaScript", "PHP", "Laravel", "MySQL", "Bootstrap"]
+          "technologies": ["Django", "HTML5", "CSS3", "JavaScript", "PHP",  "Bootstrap"]
         }
       ],
 

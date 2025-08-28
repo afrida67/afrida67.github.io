@@ -19,35 +19,13 @@ export class About extends Component {
                     <h4><i className="fa fa-hand-o-right"></i> Introduction</h4>
                   </div>
                   <div className="card-body">
-                    <p>{data.intro}</p>
-                    <p>I'm <strong>{data.name}</strong>, currently working as a <strong>{data.position}</strong> at 
-                      <a target="_blank" href={data.curl} rel="noopener noreferrer" className="company-link"> {data.company}</a>.
-                    </p>
-                    <p>Completed my Bachelor's Degree in Computer Science & Engineering from <a target="_blank" href={data.universityUrl} rel="noopener noreferrer" className="company-link">{data.universityName} </a> in 2018.</p>
-                  </div>
-                </div>
-
-                {/* Expertise Card */}
-                <div className="about-card">
-                  <div className="card-header">
-                    <h4><i className="fa fa-code"></i> What I Do</h4>
-                  </div>
-                  <div className="card-body">
-                    <p>{data.aboutMe}</p>
-                  </div>
-                </div>
-
-                {/* Philosophy Card */}
-                <div className="about-card">
-                  <div className="card-header">
-                    <h4><i className="fa fa-lightbulb-o"></i> My Philosophy</h4>
-                  </div>
-                  <div className="card-body">
-                    <blockquote className="philosophy-quote">
-                      <i className="fa fa-quote-left"></i>
-                      <span>{data.quote}</span>
-                      <i className="fa fa-quote-right"></i>
-                    </blockquote>
+                    <p>I'm  a <strong>{data.position}</strong> with 4 years of industry experience, specializing in ERP and E-Commerce solutions. 
+                      I hold a Bachelor's Degree in Computer Science & Engineering from 
+                      the <a target="_blank" 
+                      href={data.universityUrl} rel="noopener noreferrer" 
+                      className="company-link">{data.universityName} </a>.
+                      My expertise lies in designing secure applications, optimizing complex databases, and developing scalable APIs that enhance system performance and reliability.
+                      </p>
                   </div>
                 </div>
 

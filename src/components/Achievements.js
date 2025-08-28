@@ -5,16 +5,15 @@ export class Achievements extends Component {
     let data = this.props.data;
     return (
       <section id="achievements">
-        <h1 className="border_new"><i className="fa fa-trophy"></i> Achievements</h1>
+        <h1 className="border_new"><i className="fa fa-star"></i> Achievements</h1>
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-12">
               
               {/* Awards & Recognition */}
               <div className="row">
-                <div className="col-md-6">
-                  <h4><i className="fa fa-star"></i> Awards & Recognition</h4>
-                  <div className="achievement-list">
+                <div className="col-md-12">
+                  <div className="awards-grid">
                     {data.awards && data.awards.map((award, index) => (
                       <div key={index} className="achievement-item">
                         <div className="achievement-icon">
@@ -30,32 +29,8 @@ export class Achievements extends Component {
                     ))}
                   </div>
                 </div>
-
-                {/* Certifications */}
-                <div className="col-md-6">
-                  <h4><i className="fa fa-certificate"></i> Certifications</h4>
-                  <div className="achievement-list">
-                    {data.certifications && data.certifications.map((cert, index) => (
-                      <div key={index} className="achievement-item">
-                        <div className="achievement-icon">
-                          <i className={cert.icon}></i>
-                        </div>
-                        <div className="achievement-content">
-                          <h5>
-                            {cert.url ? 
-                              <a href={cert.url} target="_blank" rel="noopener noreferrer">{cert.title}</a> 
-                              : cert.title
-                            }
-                          </h5>
-                          <p className="achievement-org">{cert.issuer}</p>
-                          <p className="achievement-year">{cert.year}</p>
-                          {cert.description && <p className="achievement-desc">{cert.description}</p>}
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
               </div>
+
 
               {/* Projects & Publications */}
               <div className="row" style={{marginTop: '2rem'}}>

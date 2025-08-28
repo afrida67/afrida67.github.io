@@ -28,17 +28,6 @@ export class About extends Component {
                       </p>
                   </div>
                 </div>
-
-                {/* Personal Interests Card */}
-                <div className="about-card">
-                  <div className="card-header">
-                    <h4><i className="fa fa-heart"></i> When I'm Not Coding</h4>
-                  </div>
-                  <div className="card-body">
-                    <p>{data.interest}</p>
-                  </div>
-                </div>
-
               </div>
             </div>
 

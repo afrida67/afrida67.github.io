@@ -9,21 +9,25 @@ const mydata = {
             "id": "github",
             "url": "https://github.com/afrida67",
             "className":"fa fa-github",
+            "title": "GitHub" ,
          },
          {
             "id": "linkedin",
             "url": "https://linkedin.com/in/afrida-anzum/",
             "className":"fa fa-linkedin",
+            "title": "Currenly Under Restriction" 
          },
          {
             "id": "stackoverflow",
             "url": "https://stackoverflow.com/users/5968939/afrida-anzum-aesha?tab=profile",
             "className":"fa fa-stack-overflow",
+            "title": "StackOverflow" 
          },
          {
             "id": "researchgate",
             "url": "https://www.researchgate.net/profile/Afrida_Aesha",
             "imageUrl":"https://i.ibb.co/my07357/imageedit-9-5810964466.png",
+             "title": "Researchgate" 
          },
      ],
      "aboutMe": "I’m a Software Engineer with 4 years of industry experience, specializing in ERP and e-commerce solutions. I hold a Bachelor’s degree in Computer Science & Engineering from the Military Institute of Science and Technology (MIST). My expertise lies in designing secure applications, optimizing complex databases, and developing scalable APIs that enhance system performance and reliability.",
@@ -143,31 +147,28 @@ const mydata = {
           "organization": "Daffodil International University",
           "year": "2017",
           "description": "App Development",
-          "icon": "fa fa-graduation-cap"
+          "icon": "fa fa-trophy"
         },
         {
           "title": "a2i Hackathon Winner",
           "organization": "Information & Communication Technology Division, BD",
           "year": "2017",
           "description": "Smart Business Innovation",
-          "icon": "fa fa-medal"
-        }
-      ],
-
-      "certifications": [
-        {
+          "icon": "fa fa-trophy"
+        },
+         {
           "title": "Women Hackathon Champion",
           "issuer": "ICT Division Women in Digital",
           "year": "2016",
           "description": "Hackathon",
-          "icon": "fa fa-cloud"
+          "icon": "fa fa-trophy"
         },
         {
           "title": "International Humanitarian Technology",
           "issuer": "Dept of EEE, BUET",
           "year": "2017",
           "description": "Ranked Top 10 in Hardware Project Competition",
-          "icon": "fa fa-brain"
+          "icon": "fa fa-trophy"
         }
       ],
 
@@ -204,7 +205,7 @@ const mydata = {
           "location": "Dhaka, Bangladesh",
           "description": null,
           "achievements": [
-            "Worked on an ERP project for a semiconductor company, streamlining core operations and improving process efficiency. The system reduced manual effort through automation in order management, inventory, and reconciliation. Additionally, I developed cost projection features that enhanced financial planning and supported better decision-making.",
+            "Worked on an ERP project for a semiconductor industry, streamlining core operations and improving process efficiency. The system reduced manual effort through automation in order management, inventory, and reconciliation. Additionally, I developed cost projection features that enhanced financial planning and supported better decision-making.",
           ],
           "technologies": ["Spring Boot", "Hibernate","PostgreSQL", "JPA", "AWS", "CI/CD"]
         },

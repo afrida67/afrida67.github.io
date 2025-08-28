@@ -5,6 +5,9 @@
 .App {
   /*text-align: center;*/
 }
+.container-fluid {
+  padding-top: 1rem !important;
+}
 .home {
   font-family: 'VT323', monospace;
   text-align: center;
@@ -462,7 +465,7 @@ body {
 #experience {
   font-family: 'VT323', monospace;
   color: #F0F0F0;
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 #experience h2.section-subtitle {
@@ -1105,9 +1108,13 @@ margin-bottom: 0;
 
 /* Scroll Indicator */
 .scroll-indicator {
-  text-align: center;
-  color: #888;
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
   animation: bounce 2s infinite;
+  transform: translateX(-50%);
+  z-index: 10;
+  cursor: pointer;
 }
 
 .scroll-arrow {
@@ -1195,7 +1202,7 @@ margin-bottom: 0;
 #about {
   font-family: 'VT323', monospace;
   color: #F0F0F0;
-  padding: 2rem 0;
+  padding: 1.5rem 0;
 }
 
 /* About Content Cards - Full Width */
@@ -1348,5 +1355,18 @@ margin-bottom: 0;
   .philosophy-quote {
     font-size: 1.1rem;
     padding: 1rem;
+  }
+}
+
+.awards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .awards-grid {
+    grid-template-columns: 1fr;
   }
 }

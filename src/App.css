@@ -678,3 +678,272 @@ body {
     gap: 4px;
   }
 }
+
+/* Optimized Home Section */
+.home {
+  font-family: 'VT323', monospace;
+  text-align: center;
+  color: black;
+  background: url('/public/images/strange_bullseyes.png');
+  padding: 2rem 1rem !important;
+  margin-bottom: 0 !important;
+}
+
+/* Home Header Section */
+.home-header {
+  margin-bottom: 2rem;
+}
+
+.home-header .display-3 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.home-subtitle {
+  font-size: 2.2rem;
+  color: #007BFF;
+  margin-bottom: 0.5rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.home-subtitle i {
+  margin-right: 10px;
+  color: #0056b3;
+}
+
+.home-position {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-weight: normal;
+}
+
+.home-position i {
+  margin-right: 8px;
+  color: #007BFF;
+}
+
+.home-company {
+  font-size: 1.3rem;
+  color: #666;
+  margin-bottom: 0;
+}
+
+.home-company a {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.home-company a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Terminal Section */
+.terminal-section {
+  background: #2d3748;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  margin: 2rem auto;
+  max-width: 600px;
+  font-family: 'VT323', monospace;
+}
+
+.terminal-header {
+  background: #4a5568;
+  padding: 0.5rem 1rem;
+  border-radius: 8px 8px 0 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.terminal-button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.terminal-close {
+  background: #ff5f57;
+}
+
+.terminal-minimize {
+  background: #ffbd2e;
+}
+
+.terminal-maximize {
+  background: #28ca42;
+}
+
+.terminal-title {
+  color: #e2e8f0;
+  font-size: 0.9rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.terminal-body {
+  padding: 1.5rem;
+  background: #1a202c;
+  border-radius: 0 0 8px 8px;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.terminal-line {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+.prompt {
+  color: #48bb78;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+.command {
+  color: #e2e8f0;
+  flex-grow: 1;
+}
+
+/* Social Section */
+.social-section {
+  margin-top: 2rem;
+}
+
+.social-header {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.social-header i {
+  color: #007BFF;
+  margin-right: 8px;
+}
+
+.social {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.social li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social li a {
+  color: #333;
+  transition: all 0.3s ease;
+  padding: 10px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.social li a:hover {
+  color: #007BFF;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+  background: rgba(255, 255, 255, 1);
+}
+
+.social img {
+  height: 28px;
+  width: 28px;
+  margin-top: 0 !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home-header .display-3 {
+    font-size: 2.5rem;
+  }
+  
+  .home-subtitle {
+    font-size: 1.8rem;
+  }
+  
+  .home-position {
+    font-size: 1.5rem;
+  }
+  
+  .home-company {
+    font-size: 1.1rem;
+  }
+  
+  .terminal-section {
+    margin: 1.5rem 0.5rem;
+  }
+  
+  .terminal-line {
+    font-size: 1.2rem;
+  }
+  
+  .social {
+    font-size: 20px;
+    gap: 15px;
+  }
+  
+  .social li a {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media (max-width: 576px) {
+  .home {
+    padding: 1.5rem 0.5rem !important;
+  }
+  
+  .home-header .display-3 {
+    font-size: 2rem;
+  }
+  
+  .home-subtitle {
+    font-size: 1.5rem;
+  }
+  
+  .home-position {
+    font-size: 1.3rem;
+  }
+  
+  .terminal-body {
+    padding: 1rem;
+    min-height: 60px;
+  }
+  
+  .terminal-line {
+    font-size: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  
+  .prompt {
+    margin-right: 0;
+  }
+}

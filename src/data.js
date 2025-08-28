@@ -48,30 +48,26 @@ const mydata = {
 
   // Skills Data
       "programmingLanguages": [
-        {
-          "name": "JavaScript",
-          "icon": "fa fa-code"
+         {
+          "name": "Java",
+          "icon": "fa fa-coffee"
         },
         {
           "name": "Python",
           "icon": "fa fa-code"
         },
         {
-          "name": "Java",
-          "icon": "fa fa-coffee"
-        },
-        {
           "name": "C++",
-          "icon": "fa fa-code"
-        },
-        {
-          "name": "TypeScript",
           "icon": "fa fa-code"
         },
         {
           "name": "PHP",
           "icon": "fa fa-code"
-        }
+        },
+        {
+          "name": "JavaScript",
+          "icon": "fa fa-code"
+        },
       ],
       
       "frameworks": [
@@ -96,7 +92,7 @@ const mydata = {
           "icon": "fa fa-leaf"
         },
         {
-          "name": "Laravel",
+          "name": "Hapi.js",
           "icon": "fa fa-code"
         }
       ],

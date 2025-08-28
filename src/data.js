@@ -158,14 +158,14 @@ const mydata = {
         },
          {
           "title": "Women Hackathon Champion",
-          "issuer": "ICT Division Women in Digital",
+          "organization": "ICT Division Women in Digital",
           "year": "2016",
           "description": "Hackathon",
           "icon": "fa fa-trophy"
         },
         {
           "title": "International Humanitarian Technology",
-          "issuer": "Dept of EEE, BUET",
+          "organization": "Dept of EEE, BUET",
           "year": "2017",
           "description": "Ranked Top 10 in Hardware Project Competition",
           "icon": "fa fa-trophy"

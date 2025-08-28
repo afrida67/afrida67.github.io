@@ -12,6 +12,7 @@ import './App.css';
 import Skills from './components/Skills';
 import Achievements from './components/Achievements';
 import { Experience } from './components/Experience';
+import Publications from './components/Publications';
 
 class App extends Component {
 
@@ -23,6 +24,7 @@ class App extends Component {
            <About data = {mydata}/>
            <Experience data = {mydata}/>
            <Skills data = {mydata}/>
+           <Publications data = {mydata}/>
            <Achievements data = {mydata}/>
            <Footer data = {mydata}/>
         </div>

@@ -46,15 +46,7 @@ class Typer extends React.Component {
       return (
       <span >
         {this.state.text}
-        <span
-          style={{
-            position: "absolute",
-            right: "-2px",
-            animation: "blink 1s infinite",
-          }}
-        >
-          |
-        </span>
+        <span>|</span>
       </span>
       );
       

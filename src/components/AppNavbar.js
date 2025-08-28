@@ -95,6 +95,21 @@ export class AppNavbar extends React.Component {
                   <i className="fa fa-code"></i> Skills
                 </NavLink>
               </NavItem>
+              
+                <NavItem>
+                  <NavLink 
+                    href="#publications"
+                    className="nav-link-custom"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      this.scrollToSection('publications');
+                    }}
+                  >
+                    <i className="fa fa-file-text-o"></i> Publications
+                  </NavLink>
+                </NavItem>
+
+
               <NavItem>
                 <NavLink 
                   href="#achievements"

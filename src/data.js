@@ -36,9 +36,8 @@ const mydata = {
      "universityUrl":"https://mist.ac.bd/",
       "typewriter":[ 
          'Welcome to my profile.',
-         'Want to know more about me?',
          'Please, Scroll Down.',
-         'Thank You :)'
+         'Thank You.'
       ],
       "mail": "",
       "year": "2025",
@@ -242,7 +241,22 @@ const mydata = {
             "Object-Oriented Programming"
           ]
         }
-      ]
+      ],
+
+    "researchPapers": [
+      {
+        "title": "An IoT Based Intelligent Fire Evacuation System - 2018",
+        "journal": "21st International Conference of Computer and Information Technology (ICCIT)",
+        "year": "2018",
+        "url": "https://ieeexplore.ieee.org/document/8631945",
+      },
+        {
+        "title": "A New Algorithmic Approach to Finding Minimum Spanning Tree, 2018",
+        "journal": "4th International Conference on Electrical Engineering and Information & Communication Technology (iCEEiCT)",
+        "year": "2018",
+        "url": "https://ieeexplore.ieee.org/document/8628095",
+      }
+    ],
 
 };
 export default mydata;

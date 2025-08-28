@@ -26,6 +26,7 @@ export class Home extends Component {
                         <img src={data.profileImage} alt="Profile" className="home-avatar"/>
                       </div>
                       <div className="profile-details">
+                        <h5>I'm</h5>
                         <h2 className="name-title">
                           <span className="code-comment">// </span>
                           {data.name}

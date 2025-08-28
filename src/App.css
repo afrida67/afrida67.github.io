@@ -12,7 +12,6 @@
   font-family: 'VT323', monospace;
   text-align: center;
   color:black;
-  background: url('/public/images/strange_bullseyes.png');
 }
 a {
   text-decoration: none !important;
@@ -830,7 +829,7 @@ body {
 
 .main-title {
   font-family: 'VT323', monospace;
-  font-size: 4rem;
+  font-size: 3.2rem;
   font-weight: normal;
   margin-bottom: 1rem;
   color: #00ff88;
@@ -950,7 +949,7 @@ body {
   justify-content: center;
   width: 100%;
   margin-top: 0;
-margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .terminal-window {
@@ -1035,7 +1034,7 @@ margin-bottom: 0;
 /* Social Connect */
 .social-connect {
   text-align: center;
-  margin-top: 0.5rem;
+  margin-top: 0rem;
 }
 
 .connect-title {
@@ -1139,7 +1138,7 @@ margin-bottom: 0;
 /* Responsive Design */
 @media (max-width: 768px) {
   .main-title {
-    font-size: 3rem;
+    font-size: 2.3rem;
   }
   
   .profile-intro {
@@ -1178,7 +1177,7 @@ margin-bottom: 0;
 
 @media (max-width: 576px) {
   .main-title {
-    font-size: 2.5rem;
+    font-size: 1.9rem;
   }
   
   .tagline {

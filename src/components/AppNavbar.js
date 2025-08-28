@@ -73,6 +73,18 @@ export class AppNavbar extends React.Component {
               </NavItem>
               <NavItem>
                 <NavLink 
+                  href="#experience"
+                  className="nav-link-custom"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    this.scrollToSection('experience');
+                  }}
+                >
+                  <i className="fa fa-briefcase"></i> Experience
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink 
                   href="#skills"
                   className="nav-link-custom"
                   onClick={(e) => {

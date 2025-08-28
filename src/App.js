@@ -11,7 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Skills from './components/Skills';
 import Achievements from './components/Achievements';
-
+import { Experience } from './components/Experience';
 
 class App extends Component {
 
@@ -21,6 +21,7 @@ class App extends Component {
            <AppNavbar/>
            <Home data = {mydata}/>
            <About data = {mydata}/>
+           <Experience data = {mydata}/>
            <Skills data = {mydata}/>
            <Achievements data = {mydata}/>
            <Footer data = {mydata}/>

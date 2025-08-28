@@ -201,9 +201,58 @@ const mydata = {
           "technologies": ["React", "Spring", "MySQL"],
           "url": "",
           "icon": "fa fa-bar-chart"
+        },
+
+      ],    // Experience Data
+      "workExperience": [
+        {
+          "position": "Software Engineer",
+          "company": "Dynamic Solution Innovators",
+          "companyUrl": "http://www.dsinnovators.com/",
+          "duration": "Jan 2022 - Present",
+          "location": "Dhaka, Bangladesh",
+          "description": "Leading development of enterprise-level applications and mentoring junior developers. Responsible for architecting scalable solutions and implementing best practices.",
+          "achievements": [
+            "Implemented automated testing and CI/CD pipelines, reducing deployment time by 60%",
+            "Designed and developed RESTful APIs serving 10,000+ daily active users"
+          ],
+          "technologies": ["React.js", "Node.js", "PostgreSQL", "Docker", "AWS", "MongoDB", "Express.js"]
+        },
+        {
+          "position": "Junior Programmer",
+          "company": "Adiva Graphics",
+          "companyUrl": null,
+          "duration": "Jan 2018 - May 2019",
+          "location": "Dhaka, Bangladesh",
+          "description": "Started career as a junior developer, focusing on learning modern web technologies and contributing to various client projects.",
+          "achievements": [
+            "Successfully completed 10+ client projects within deadlines",
+            "Learned and implemented responsive web design principles",
+            "Contributed to the company's internal tools development",
+          ],
+          "technologies": ["HTML5", "CSS3", "JavaScript", "PHP", "Laravel", "MySQL", "Bootstrap"]
+        }
+      ],
+
+      "education": [
+        {
+          "degree": "Bachelor of Science in Computer Science & Engineering",
+          "institution": " MIST",
+          "institutionUrl": "https://asd.aa.bd/",
+          "year": "2014 - 2018",
+          "description": "Specialized in software engineering, algorithms, and data structures. Completed final year project on AI-powered recommendation systems.",
+          "coursework": [
+            "Data Structures & Algorithms",
+            "Software Engineering",
+            "Database Management Systems",
+            "Machine Learning",
+            "Web Technologies",
+            "Computer Networks",
+            "Operating Systems",
+            "Object-Oriented Programming"
+          ]
         }
       ]
-
 
 };
 export default mydata;

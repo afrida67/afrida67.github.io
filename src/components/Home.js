@@ -7,53 +7,96 @@ export class Home extends Component {
     let data = this.props.data;
     return (
       <section id="home">
-      <div>
-        <Jumbotron className="home">
-            
-            <div className="terminal-section">
-              <div className="terminal-header">
-                <span className="terminal-button terminal-close"></span>
-                <span className="terminal-button terminal-minimize"></span>
-                <span className="terminal-button terminal-maximize"></span>
-                <span className="terminal-title">portfolio.sh</span>
-              </div>
-              
-              <div className="terminal-body">
-                <div className="terminal-line">
-                  <span className="prompt">root@portfolio:~$</span>
-                  <span className="command">
-                    <Typer dataText={data.typewriter} />
-                  </span>
-                </div>
-              </div>
-            </div>
+        <div className="home-background">
+          <div className="home-overlay">
+            <Jumbotron className="home">
+                
+                <div className="home-content">
+                  <div className="intro-section">
+                    <div className="greeting">
+                      <h1 className="main-title">
+                        <span className="bracket">&lt;</span>
+                        Hello, World!
+                        <span className="bracket">/&gt;</span>
+                      </h1>
+                    </div>
+                    
+                    <div className="profile-intro">
+                      <div className="profile-image-home">
+                        <img src={data.profileImage} alt="Profile" className="home-avatar"/>
+                      </div>
+                      <div className="profile-details">
+                        <h2 className="name-title">
+                          <span className="code-comment">// </span>
+                          {data.name}
+                        </h2>
+                        <h3 className="position-title">
+                          <i className="fa fa-code"></i>
+                          {data.position}
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
 
-            <div className="social-section">
-              <h4 className="social-header">
-                <i className="fa fa-share-alt"></i> Connect With Me
-              </h4>
-              <nav>
-                <ul className="social">
-                    {
-                        data.socialProfiles && data.socialProfiles.map(item => {
-                          return(
-                                  <li key={item.id}>
-                                    <a href={item.url} target="_blank" rel="noopener noreferrer" title={item.title}>
-                                    { 
-                                      item.className? <i className={item.className}></i> : <img src={item.imageUrl} alt="social" />
-                                    }
-                                    </a>
-                                  </li>
-                                )
+                   <div className="social-connect">
+
+                    <div className="social-links">
+                        {
+                            data.socialProfiles && data.socialProfiles.map(item => {
+                              return(
+                                      <a key={item.id} href={item.url} target="_blank" rel="noopener noreferrer" 
+                                        className="social-link" title={item.title}>
+                                        <div className="social-icon">
+                                          { 
+                                            item.className? 
+                                            <i className={item.className}></i> : 
+                                            <img src={item.imageUrl} alt="social" />
+                                          }
+                                        </div>
+                                      </a>
+                                    )
+                              }
+                            )
                           }
-                        )
-                      }
-                </ul>
-              </nav>
-            </div>
-    
-      </Jumbotron>
-      </div>
+                    </div>
+                  </div>
+
+                  <div className="terminal-container">
+                    <div className="terminal-window">
+                      <div className="terminal-header">
+                        <div className="terminal-buttons">
+                          <span className="btn-close"></span>
+                          <span className="btn-minimize"></span>
+                          <span className="btn-maximize"></span>
+                        </div>
+                        <div className="terminal-title">~/afridapc</div>
+                      </div>
+                      
+                      <div className="terminal-body">
+                        <div className="terminal-prompt">
+                          <span className="user">root@afrida</span>
+                          <span className="separator">:</span>
+                          <span className="path">~</span>
+                          <span className="dollar">$</span>
+                          <span className="command">
+                            <Typer dataText={data.typewriter} />
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                <div className="scroll-indicator">
+                    <div className="scroll-arrow">
+                      <i className="fa fa-chevron-down"></i>
+                    </div>
+                  </div> 
+
+
+                </div>
+            </Jumbotron>
+          </div>
+        </div>
       </section>
     )
   }

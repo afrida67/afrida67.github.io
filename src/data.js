@@ -9,25 +9,21 @@ const mydata = {
             "id": "github",
             "url": "https://github.com/afrida67",
             "className":"fa fa-github",
-            "title": "Github"
          },
          {
             "id": "linkedin",
             "url": "https://linkedin.com/in/afrida-anzum/",
             "className":"fa fa-linkedin",
-            "title": "LinkedIn Currently Restricted"
          },
          {
             "id": "stackoverflow",
             "url": "https://stackoverflow.com/users/5968939/afrida-anzum-aesha?tab=profile",
             "className":"fa fa-stack-overflow",
-            "title": "Stack Overflow"
          },
          {
             "id": "researchgate",
             "url": "https://www.researchgate.net/profile/Afrida_Aesha",
             "imageUrl":"https://i.ibb.co/my07357/imageedit-9-5810964466.png",
-            "title": "ResearchGate"
          },
      ],
      "intro": "Let me introduce myself.",
@@ -38,7 +34,6 @@ const mydata = {
      "universityUrl":"https://mist.ac.bd/",
       "typewriter":[ 
          'Welcome to my profile.',
-         'I am Afrida.',
          'Want to know more about me?',
          'Please, Scroll Down.',
          'Thank You :)'

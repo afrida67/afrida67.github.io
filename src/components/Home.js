@@ -39,30 +39,7 @@ export class Home extends Component {
                     </div>
                   </div>
 
-                {/* Social Connect */}
 
-                   <div className="social-connect">
-
-                    <div className="social-links">
-                        {
-                            data.socialProfiles && data.socialProfiles.map(item => {
-                              return(
-                                      <a key={item.id} href={item.url} target="_blank" rel="noopener noreferrer" 
-                                        className="social-link" title={item.title}>
-                                        <div className="social-icon">
-                                          { 
-                                            item.className? 
-                                            <i className={item.className}></i> : 
-                                            <img src={item.imageUrl} alt="social" />
-                                          }
-                                        </div>
-                                      </a>
-                                    )
-                              }
-                            )
-                          }
-                    </div>
-                  </div>
                    {/* Terminal*/}
                   <div className="terminal-container">
                     <div className="terminal-window">
@@ -88,6 +65,33 @@ export class Home extends Component {
                       </div>
                     </div>
                   </div>
+
+                {/* Social Connect */}
+
+                   <div className="social-connect">
+
+                    <div className="social-links">
+                        {
+                            data.socialProfiles && data.socialProfiles.map(item => {
+                              return(
+                                      <a key={item.id} href={item.url} target="_blank" rel="noopener noreferrer" 
+                                        className="social-link" title={item.title}>
+                                        <div className="social-icon">
+                                          { 
+                                            item.className? 
+                                            <i className={item.className}></i> : 
+                                            <img src={item.imageUrl} alt="social" />
+                                          }
+                                        </div>
+                                      </a>
+                                    )
+                              }
+                            )
+                          }
+                    </div>
+                  </div>
+
+
                {/* Scroll */}
                 <div className="scroll-indicator"
                   onClick={() => {

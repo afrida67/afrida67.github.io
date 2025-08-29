@@ -20,22 +20,29 @@ export class Publications extends Component {
                         <div key={index} className="publication-card">
                           <div className="publication-header">
                             <h5>
-                              {paper.url ? 
-                                <a href={paper.url} target="_blank" rel="noopener noreferrer">
-                                  <i className="fa fa-file-text"></i> {paper.title}
-                                </a> 
-                                : <><i className="fa fa-file-text"></i> {paper.title}</>
-                              }
+                               <i className="fa fa-file-text"></i> {paper.title}
                             </h5>        
                           </div>
                           
                           
-                          <div className="publication-venue">
-                            <i className="fa fa-university"></i>
-                            {paper.journal}
-                          </div>
-                          
-                          
+                            <div className="publication-venue">
+                              <i className="fa fa-university"></i>
+                              {paper.journal}
+                            </div>
+
+                            {/* See Publication Button */}
+                            {paper.url && (
+                              <div className="publication-footer">
+                                <a 
+                                  href={paper.url} 
+                                  target="_blank" 
+                                  rel="noopener noreferrer"
+                                  className="see-publication-btn"
+                                >
+                                  See Publication &nbsp;<i className="fa fa-external-link"></i>
+                                </a>
+                              </div>
+                            )}
                         </div>
                       ))}
                     </div>

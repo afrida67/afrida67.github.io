@@ -5,7 +5,7 @@ export class About extends Component {
     let data = this.props.data;
     return (
       <section id="about">
-        <h1 className="border_new"><i className="fa fa-user"></i> About Me</h1>
+        <h1 className="section-title"><i className="fa fa-user"></i> About Me</h1>
         <div className="container-fluid">
           <div className="row">
             

@@ -5,7 +5,7 @@ export class Publications extends Component {
     let data = this.props.data;
     return (
       <section id="publications">
-        <h1 className="border_new"><i className="fa fa-file-text-o"></i> Publications</h1>
+        <h1 className="section-title"><i className="fa fa-file-text-o"></i> Publications</h1>
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-12">
@@ -32,7 +32,7 @@ export class Publications extends Component {
                           
                           <div className="publication-venue">
                             <i className="fa fa-university"></i>
-                            <strong>{paper.journal || paper.conference}</strong>
+                            {paper.journal}
                           </div>
                           
                           

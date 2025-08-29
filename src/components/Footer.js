@@ -4,7 +4,7 @@ export class Footer extends Component {
     render() {
         let data = this.props.data;
         return (
-            <div id="footer" className="my-containers">
+            <div id="footer" className="footer-containers">
             <div className="row">
               <div className="section">
                 <div className="col-md-12">

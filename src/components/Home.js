@@ -26,7 +26,7 @@ export class Home extends Component {
                         <img src={data.profileImage} alt="Profile" className="home-avatar"/>
                       </div>
                       <div className="profile-details">
-                        <h5>I'm</h5>
+                        <h5>I am</h5>
                         <h2 className="name-title">
                           <span className="code-comment">// </span>
                           {data.name}
@@ -38,6 +38,8 @@ export class Home extends Component {
                       </div>
                     </div>
                   </div>
+
+                {/* Social Connect */}
 
                    <div className="social-connect">
 
@@ -61,7 +63,7 @@ export class Home extends Component {
                           }
                     </div>
                   </div>
-
+                   {/* Terminal*/}
                   <div className="terminal-container">
                     <div className="terminal-window">
                       <div className="terminal-header">
@@ -86,8 +88,14 @@ export class Home extends Component {
                       </div>
                     </div>
                   </div>
-
-                <div className="scroll-indicator">
+               {/* Scroll */}
+                <div className="scroll-indicator"
+                  onClick={() => {
+                    const nextSection = document.getElementById("about");
+                    nextSection.scrollIntoView({ behavior: "smooth" });
+                  }}
+                
+                >
                     <div className="scroll-arrow">
                       <i className="fa fa-chevron-down"></i>
                     </div>

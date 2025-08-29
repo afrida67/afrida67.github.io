@@ -46,7 +46,6 @@ class Typer extends React.Component {
       return (
       <span >
         {this.state.text}
-        <span>|</span>
       </span>
       );
       

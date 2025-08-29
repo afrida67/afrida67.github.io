@@ -5,7 +5,7 @@ export class Achievements extends Component {
     let data = this.props.data;
     return (
       <section id="achievements">
-        <h1 className="border_new"><i className="fa fa-star"></i> Achievements</h1>
+        <h1 className="section-title"><i className="fa fa-star"></i> Achievements</h1>
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-12">

@@ -202,7 +202,6 @@ const mydata = {
           "companyUrl": "http://www.dsinnovators.com/",
           "duration": "Feb 2019 - Present",
           "location": "Dhaka, Bangladesh",
-          "description": null,
           "achievements": [
             "Worked on an ERP project for a semiconductor industry, streamlining core operations and improving process efficiency. The system reduced manual effort through automation in order management, inventory, and reconciliation. Additionally, I developed cost projection features that enhanced financial planning and supported better decision-making.",
           ],
@@ -211,10 +210,9 @@ const mydata = {
         {
           "position": "Junior Programmer",
           "company": "Adiva Graphics",
-          "companyUrl": null,
+          "companyUrl": "https://www.linkedin.com/company/catalystsolutionsbd/",
           "duration": "May 2018 - July 2018",
-          "location": "Dhaka, Bangladesh",
-          "description": null,        
+          "location": "Dhaka, Bangladesh",      
           "achievements": [
             "Focused on learning modern web technologies and contributing to various client projects.",
             "Contributed to the company's internal tools development",
@@ -230,16 +228,6 @@ const mydata = {
           "institutionUrl": "https://asd.aa.bd/",
           "year": "2014 - 2018",
           "description": "Specialized in software engineering, algorithms, and data structures. Completed final year project on AI-powered recommendation systems.",
-          "coursework": [
-            "Data Structures & Algorithms",
-            "Software Engineering",
-            "Database Management Systems",
-            "Machine Learning",
-            "Web Technologies",
-            "Computer Networks",
-            "Operating Systems",
-            "Object-Oriented Programming"
-          ]
         }
       ],
 
